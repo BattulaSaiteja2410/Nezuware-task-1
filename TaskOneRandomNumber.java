@@ -26,6 +26,7 @@ class TaskOneRandomNumber
 				if (randomValue==userRandomValue)
 				{
 					System.out.println("Congradulications you guesse is correct and you wow the game");
+					break;
 				}
 				else if (triles<=3&&randomValue>userRandomValue)
 				{
